@@ -33,7 +33,6 @@ class ServicesPage extends StatelessWidget {
               ),
               const SizedBox(height: 30),
 
-              // Diet Planning
               _buildSection(
                 title: "Diet Planning",
                 imagePath: 'asset/diet-plans-1.jpeg',
@@ -47,7 +46,6 @@ class ServicesPage extends StatelessWidget {
               ),
               const SizedBox(height: 40),
 
-              // Fit Training
               _buildSection(
                 title: "Fit Training",
                 imagePath: 'asset/Dumbbells.jpeg',
@@ -59,7 +57,6 @@ class ServicesPage extends StatelessWidget {
               ),
               const SizedBox(height: 40),
 
-              // Nutrition Guidelines
               _buildSection(
                 title: "Nutrition Guidelines",
                 imagePath: 'asset/clip_dumbell.jpeg',

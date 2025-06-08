@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
       ),
 
-      // Automatically switch theme based on system setting
+      // Swtich to mobile settings theme colour
       themeMode: ThemeMode.system,
 
       home: const SignInPage(),

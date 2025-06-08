@@ -24,7 +24,6 @@ class ProfilePage extends StatelessWidget {
             ),
             const SizedBox(height: 30),
 
-            // Profile Image + Buttons Card
             Card(
               elevation: 5,
               color: isDark ? Colors.grey[850] : Colors.white,
@@ -72,7 +71,6 @@ class ProfilePage extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            // Profile Info + Feedback Card
             Card(
               elevation: 5,
               color: isDark ? Colors.grey[850] : Colors.white,

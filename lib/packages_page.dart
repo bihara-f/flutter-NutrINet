@@ -55,7 +55,7 @@ class PackagesPage extends StatelessWidget {
               child: GridView.builder(
                 itemCount: packages.length,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  // Show 3 columns in landscape, else 2 in portrait
+                  // Show 3 columns in landscape and 2 columns in portrait
                   crossAxisCount:
                       MediaQuery.of(context).orientation ==
                               Orientation.landscape

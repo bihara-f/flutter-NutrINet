@@ -45,7 +45,6 @@ class _PaymentPageState extends State<PaymentPage> {
         ),
         backgroundColor: const Color.fromARGB(255, 9, 60, 77),
       ),
-      // bottomNavigationBar removed here
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
         child: Form(

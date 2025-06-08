@@ -253,7 +253,6 @@ class _SignUpPageState extends State<SignUpPage> {
                   ),
                   const SizedBox(height: 20),
 
-                  // Terms & Conditions
                   Row(
                     children: [
                       Checkbox(
@@ -339,7 +338,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   ),
                   const SizedBox(height: 24),
 
-                  // Already have account
+                  // If i already have an account
                   GestureDetector(
                     onTap: () {
                       Navigator.push(

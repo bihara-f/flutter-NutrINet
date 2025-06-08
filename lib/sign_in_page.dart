@@ -92,7 +92,7 @@ class _SignInPageState extends State<SignInPage> {
                             ),
                             const SizedBox(height: 24),
 
-                            // Gradient Button
+                            //Button
                             Container(
                               width: double.infinity,
                               decoration: BoxDecoration(
